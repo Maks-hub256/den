@@ -18,6 +18,13 @@ $(window).ready(function() {
         $('.sub-header__img').attr("src", "img/DeckstopDenis.png")
     }
 })
+$(window).resize(function() {
+    if ($(window).width() <= '500'){
+        $('.sub-header__img').attr("src", "img/mobilephoto.png")
+    } else {
+        $('.sub-header__img').attr("src", "img/DeckstopDenis.png")
+    }
+})
 
 //burger
 $(".sub-header__burger-area").on('click', function(){
