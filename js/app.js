@@ -31,4 +31,5 @@ $(".header__link").on('click', function() {
     $(".header__navbar").toggleClass("header__navbar-active") //navbar
     $("body").toggleClass("fix-active")// fix screen
     $("html").toggleClass("fix-active")// fix screen
+    $(".sub-header__burger-line").toggleClass("sub-header__burger-line-active")
 })
